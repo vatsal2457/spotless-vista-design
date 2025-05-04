@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Home, Building, Trash, Broom, Car, Hotel } from 'lucide-react';
+import { Home, Building, Trash, Brush, Car, Hotel } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface ServiceCardProps {
@@ -47,7 +47,7 @@ const ServicesSection = () => {
           />
           
           <ServiceCard 
-            icon={<Broom className="service-icon" />}
+            icon={<Brush className="service-icon" />}
             title="Deep Cleaning"
             description="Intensive cleaning reaching areas that regular cleaning doesn't cover. Perfect for spring cleaning or move-in/out."
             delay="0.4s"
